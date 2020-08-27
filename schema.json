@@ -67,7 +67,7 @@
               "id": {
                 "type": "string",
                 "enum": [
-                  "https://example.org/peertube/categories/scheme"
+                  "https://skohub.io/acka47/apconf2020/heads/master/example.org/peertube/categories/scheme"
                 ]
               }
             }
@@ -75,11 +75,8 @@
         },
         "required": [
           "id"
-        ]
-      },
-      "_widget": {
-        "type": "SkohubLookup",
-        "url": "https://skohub.io/acka47/apconf2020/heads/master/example.org/peertube/categories/scheme"
+        ],
+        "_widget": "SkohubLookup"
       }
     }
   },
