@@ -75,11 +75,11 @@
         },
         "required": [
           "id"
-        ],
-        "_widget": {
-          "type": "SkohubLookup",
-          "url": "https://skohub.io/acka47/apconf2020/heads/master/example.org/peertube/categories/scheme"
-        }
+        ]
+      },
+      "_widget": {
+        "type": "SkohubLookup",
+        "url": "https://skohub.io/acka47/apconf2020/heads/master/example.org/peertube/categories/scheme"
       }
     }
   },
