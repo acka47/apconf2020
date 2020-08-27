@@ -49,7 +49,7 @@
 
 <Entertainment> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Unterhaltung"@de, "Experiment"@en .
+          skos:prefLabel "Unterhaltung"@de, "Entertainment"@en .
 
 <NewsPolitics> a skos:Concept;
           skos:topConceptOf <scheme> ;
