@@ -1,0 +1,16 @@
+digraph protocols {
+    rankdir="LR"
+    compound=true
+	node[shape=box color=white fontcolor=white fontname=helvetica]
+	graph [bgcolor="#000000" color=white fontcolor=white fontname=helvetica]
+	edge[color=white fontcolor=white fontname=helvetica]
+	edge[arrowhead=empty arrowtail=empty]
+	splines=false
+
+	creator[label="Creator" width=1.5]
+    concept[label="Concept" width=1.5]
+    subscriber[label="Subscriber" width=1.5]
+
+	creator->concept[label="LDN"]
+	concept->subscriber[label="ActivityPub"]
+}
