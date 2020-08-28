@@ -7,7 +7,7 @@ digraph protocols {
 	edge[arrowhead=empty arrowtail=empty]
 	splines=false
 
-	creator[label="Creator" width=1.5]
+	publisher[label="Publisher" width=1.5]
     concept[label="Concept" width=1.5]
     subscriber[label="Subscriber" width=1.5]
 
